@@ -195,4 +195,4 @@ Full Dinkelbach/CVX runs, PCEM experiments, and the runtime sweep were **not val
 
 ## 8. Contact / 联系方式
 
-Contact from the original project notes / 原项目说明中的联系方式：s2038732@ed.ac.uk.
+Contact / 联系邮箱：[djc1311249833@163.com](mailto:djc1311249833@163.com).
