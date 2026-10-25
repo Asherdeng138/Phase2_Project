@@ -1,59 +1,9 @@
-# Phase_2_project
-The Matlab code related to the Spectral and Energy Efficiency Optimization for 5G mmWave Massive MIMO Networks
+# Phase 2 experiment archives / 第二阶段实验归档
 
----
+The project guide is in the [repository-root README](../README.md), displayed on the GitHub homepage. It includes an archive-to-entry-point map, dependencies, MATLAB/Octave examples, code explanations, and the verified scope.
 
-# Hybrid Beamforming for Energy Efficient mmWave MIMO Systems
+完整的中英双语说明见[仓库根目录 README](../README.md)，GitHub 项目首页会直接显示。内容包括压缩包与实验入口、依赖、MATLAB/Octave 示例、代码结构和已验证范围。
 
-This repository contains MATLAB code for hybrid beamforming methods, including the **Dinkelbach Method**, **PCEM**, and **Brute Force**, designed for mmWave massive MIMO systems. The code evaluates and compares these methods in terms of **spectral efficiency (SE)** and **energy efficiency (EE)**, as described in the study:
+Extract each ZIP/7z archive into a separate directory. Different archives contain different versions of classes with the same names; run one experiment per session instead of adding every folder to the search path.
 
-> **"Enhancing 5G: Energy Efficient Solutions for mmWave Massive MIMO Systems"**
----
-
-## Overview
-
-This repository implements and compares various beamforming strategies for mmWave massive MIMO systems:
-1. **Dinkelbach Method**: Iterative optimization for maximizing energy efficiency using convex solvers.
-2. **PCEM (Power-Controlled Energy Maximization)**: A hybrid beamforming algorithm for balancing energy and spectral efficiency.
-3. **Brute Force**: A baseline method that exhaustively searches over all parameter combinations.
-
-Key metrics include:
-- **Spectral Efficiency (SE)**: Measured in bits/s/Hz.
-- **Energy Efficiency (EE)**: Measured in bits/Joule.
-
----
-
-## Features
-
-- Implements **hybrid beamforming** methods for mmWave MIMO systems.
-- Evaluates **energy efficiency** and **spectral efficiency** under different SNRs and configurations.
-- Provides **visual comparisons** of methods (SE vs. SNR, EE vs. SNR).
-- All results are reproducible and align with the data in the associated research paper.
-
----
-
-## Requirements
-
-1. **MATLAB** (R2021a or newer is recommended)
-2. **CVX Toolbox** (required for the Dinkelbach Method)
-   - Download CVX: [http://cvxr.com/cvx/](http://cvxr.com/cvx/)
-3. Git (for cloning this repository)
-
-
-## Notes
-
-1. **CVX Dependency**:  
-   The **Dinkelbach Method** requires the CVX toolbox for convex optimization. If CVX is not installed, the script will fail.  
-
-2. **Reproducibility**:  
-   All data and results are aligned with the research paper, ensuring reproducibility of findings.
-
-3. **Performance Note**:  
-   The Dinkelbach Method may exhibit slower runtimes compared to brute force due to the reliance on CVX, which is not parallelized in MATLAB.
-
----
-## Contact
-
-For questions, suggestions, or issues, please contact:
-- Email: s2038732@ed.ac.uk
-
+请将每个 ZIP/7z 压缩包解压到独立目录。不同实验包含同名但实现不同的类，建议每个会话运行一个实验，避免一次加入全部搜索路径。
